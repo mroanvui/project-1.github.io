@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project 1</title>
+    <style>
+          .navbar {
+            background-color:blue;
+            border-radius: 36px;
+         
+        }
+        .navbar input{
+            height: 23px;
+            border: 1px solid black;
+            border-radius: 35px;
+        }
+
+        .navbar ul {
+            overflow: auto; /* restores lost background */
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none; /*  removes bullets */
+            margin: 7px 68px;
+            font-size: 25px;
+            
+            
+        }
+        .navbar li a{
+            color:  rgb(243, 243, 249);
+            padding: 3px 3px;
+            text-decoration: none; /* removes underline */
+          
+        }
+        .navbar li a:hover{ /*hover : when you move your curser over this element ,it willbehave as specified*/
+            background-color: rgb(135, 135, 60);
+            border-radius: 36px;
+        }
+        .search{
+            float: right;
+            color: white;
+            padding: 9px;
+            border-radius: 35px;
+        }
+
+
+
+
+
+
+
+
+
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: rgb(242, 127, 146);
+        }
+
+        * {
+            box-sizing: border-box;
+
+        }
+
+        .container {
+            width: 1150px;
+            border: 4px solid purple;
+            margin: 22px auto;
+            background-color: rgb(236 208 189);
+        }
+
+        .items {
+            border: 3px solid grey;
+            margin: 20px 19px;
+            padding: 10px 5px;
+            background-color: rgb(246, 194, 194);
+
+        }
+
+        .small {
+            background-color: green;
+            padding: 5px;
+            padding-left: 44px;
+            box-sizing: border-box;
+            width: 200px;
+            border: 1px;
+            border-radius: 100px;
+            border-bottom: 4px solid black;
+            border-right: 4px solid black;
+            padding: 50p;
+            padding-left: 19px;
+            /* width: 337px; */
+            /* margin-left: 50px; */
+            border-radius: 14px;
+
+        }
+
+        #ss {
+            padding-left: 55px;
+        }
+
+        #fruits {
+            float: left;
+            width: 46%;
+
+        }
+
+        #computer {
+            float: right;
+            float: inline-end;
+            width: 47%;
+
+        }
+
+        #stationary {
+            /* float: left; */
+            clear: both;
+            width: 97%;
+
+        }
+
+        p,
+        h2 {
+            text-align: justify;
+        }
+
+        h1 {
+            margin: auto;
+            width: 344px;
+            background-color: green;
+            border-bottom: 4px solid black;
+            padding: 50p;
+            padding-left: 19px;
+            width: 337px;
+            /* margin-left: 50px; */
+            border-radius: 14px;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#" class="new">Home</a></li>
+                <li><a href="#" class="new">About</a> </li>
+                <li><a href="#" class="new">Services</a> </li>
+                <li><a href="#" class="new">Contact us</a> </li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Search this website" >
+
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+
+
+
+    <div class="container">
+        <h1>welcome to my store</h1>
+        <div id="fruits" class="items">
+            <h2 id="ss" class="small">Fruits</h2>
+            <p id="fruitspara" class="para">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, a dolore reiciendis cupiditate dolorum
+                natus quaerat corporis et hic, aperiam voluptates beatae. Molestiae maxime error tempore minus delectus
+                architecto deleniti.
+            </p>
+        </div>
+        <div id="computer" class="items">
+            <h2 class="small">Computer</h2>
+            <p id="computerpara" class="para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus pariatur aliquam nobis quibusdam
+                facilis natus, magni, repellendus blanditiis ea fugiat sint dignissimos tempora! Nostrum impedit aliquid
+                reprehenderit cumque, dicta dolorum.
+            </p>
+        </div>
+        <div id="stationary" class="items">
+            <h2 class="small">Stationary</h2>
+            <p id="stationarypara" class="para">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor culpa aperiam veniam magnam enim.
+                Doloremque sint ad eligendi at recusandae nemo sunt accusamus ipsum perspiciatis, perferendis ullam
+                minus quisquam cum.
+            </p>
+        </div>
+        <div id="glasses" class="items">
+            <h2 class="small">glasses</h2>
+            <p id="glassespara" class="para">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor culpa aperiam veniam magnam enim.
+                Doloremque sint ad eligendi at recusandae nemo sunt accusamus ipsum perspiciatis, perferendis ullam
+                minus quisquam cum.
+            </p>
+        </div>
+    </div>
+
+    
+</body>
+</html>
